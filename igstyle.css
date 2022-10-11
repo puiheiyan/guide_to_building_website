@@ -1,0 +1,66 @@
+.header {
+    text-align: center;
+    background-color: aquamarine;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: black;
+    display: block;
+    overflow: hidden;
+}
+.header a{
+    font-size: 3.5vw;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    height: 90%;
+    overflow: scroll;
+    width: 100%;
+    text-align: center;
+}
+
+.floatb{
+    position: fixed;
+    bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 5px;
+    transition: 0.5s;
+}
+
+.floatb:hover {
+    background-color: lightblue;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: darkgreen;
+    overflow: scroll;
+    padding-top: 20px;
+    transition: 1s;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.openbtn {
+    position: fixed;
+    top: 0%;
+}
